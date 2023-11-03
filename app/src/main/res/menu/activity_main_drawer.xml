@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/bbc_logo_2021"
+            android:menuCategory="secondary"
+            android:title="BBC" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/icons8_google_news"
+            android:menuCategory="secondary"
+            android:title="NewsX" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/cnn_logo_wine"
+            android:menuCategory="secondary"
+            android:title="CNN" />
+        <item
+            android:id="@+id/foxNewsFragment"
+            android:icon="@drawable/fox_racing"
+            android:menuCategory="secondary"
+            android:title="Foxnews" />
+
+        <item
+            android:id="@+id/skyNewsFragment"
+            android:icon="@drawable/sky_basic_logo"
+            android:menuCategory="secondary"
+            android:title="Skynews" />
+
+    </group>
+
+
+    <item android:title="Upcoming">
+        <menu>
+            <item
+                android:id="@+id/ny"
+                android:icon="@drawable/the_new_york_times_company_logo"
+                android:menuCategory="secondary"
+                android:title="New York Times" />
+        </menu>
+    </item>
+
+
+
+</menu>
